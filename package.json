@@ -1,9 +1,9 @@
 {
-    "name": "plop-templates",
+    "name": "reacttestgen",
     "displayName": "File Templates",
     "description": "Create new files and folders from templates",
     "version": "1.1.0",
-    "publisher": "samkirkland",
+    "publisher": "TheRakeshPurohit",
     "engines": {
         "vscode": "^1.32.0"
     },
@@ -11,28 +11,34 @@
         "Other"
     ],
     "author": {
-        "name": "Sam Kirkland",
-        "url": "https://github.com/samkirkland"
+        "name": "Rakesh Purohit",
+        "url": "https://github.com/TheRakeshPurohit"
     },
     "repository": {
-        "url": "https://github.com/samkirkland/plop-templates"
+        "url": "https://github.com/TheRakeshPurohit/reacttestgen"
     },
     "bugs": {
-        "url": "https://github.com/samkirkland/plop-templates/issues",
-        "email": "plop-templates@samkirkland.com"
+        "url": "https://github.com/TheRakeshPurohit/reacttestgen/issues",
+        "email": "rakeshpurohit909@gmail.com"
     },
     "galleryBanner": {
         "color": "#333333",
         "theme": "dark"
     },
-    "qna": "https://github.com/samkirkland/plop-templates/issues",
+    "qna": "https://github.com/TheRakeshPurohit/reacttestgen/issues",
     "license": "MIT",
     "keywords": [
         "templates",
         "create-item-by-template",
         "create-folder",
         "create-file",
-        "plop"
+        "plop",
+        "react",
+        "test",
+        "generator",
+        "vscode",
+        "extension",
+        "plugin"
     ],
     "activationEvents": [
         "workspaceContains:**/plopfile.js",
