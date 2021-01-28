@@ -15,17 +15,17 @@
         "url": "https://github.com/TheRakeshPurohit"
     },
     "repository": {
-        "url": "https://github.com/TheRakeshPurohit/reacttestgen"
+        "url": "https://github.com/TheRakeshPurohit/VSCode-ReactTestGen"
     },
     "bugs": {
-        "url": "https://github.com/TheRakeshPurohit/reacttestgen/issues",
+        "url": "https://github.com/TheRakeshPurohit/VSCode-ReactTestGen/issues",
         "email": "rakeshpurohit909@gmail.com"
     },
     "galleryBanner": {
         "color": "#333333",
         "theme": "dark"
     },
-    "qna": "https://github.com/TheRakeshPurohit/reacttestgen/issues",
+    "qna": "https://github.com/TheRakeshPurohit/VSCode-ReactTestGen/issues",
     "license": "MIT",
     "keywords": [
         "templates",
@@ -47,54 +47,48 @@
     "icon": "resources/logo.png",
     "main": "./dist/extension.js",
     "contributes": {
-        "commands": [
-            {
-                "command": "ploptemplates.newFile",
-                "title": "Generate ReactComponent TestCase",
-                "category": "Plop File Templates"
-            }
-        ],
+        "commands": [{
+            "command": "ploptemplates.newFile",
+            "title": "Generate ReactComponent TestCase",
+            "category": "Plop File Templates"
+        }],
         "menus": {
-            "explorer/context": [
-                {
-                    "command": "ploptemplates.newFile",
-                    "group": "navigation@500"
-                }
-            ]
+            "explorer/context": [{
+                "command": "ploptemplates.newFile",
+                "group": "navigation@500"
+            }]
         },
-        "configuration": [
-            {
-                "title": "Plop Templates",
-                "required": [
-                    "plopTemplates.configFileName",
-                    "plopTemplates.terminalName",
-                    "plopTemplates.destinationPath",
-                    "plopTemplates.plopCommand"
-                ],
-                "properties": {
-                    "plopTemplates.configFileName": {
-                        "type": "string",
-                        "default": "plopfile.js",
-                        "description": "List of paths to plop file templates"
-                    },
-                    "plopTemplates.terminalName": {
-                        "type": "string",
-                        "default": "Generate ReactComponent TestCase",
-                        "description": "Name of the Terminal window created for plop"
-                    },
-                    "plopTemplates.destinationPath": {
-                        "type": "string",
-                        "default": "destinationpath",
-                        "description": "Name of the prompt the destination path will be passed in as"
-                    },
-                    "plopTemplates.plopCommand": {
-                        "type": "string",
-                        "default": "plop",
-                        "description": "By default this extension assumes plop is installed globally (npm install -g plop). If this is not the case, add a 'scripts' record in your package.json file -- example: 'scripts': { 'add-from-template': 'plop' } -- next update this setting with your command case, in this example 'add-from-template'"
-                    }
+        "configuration": [{
+            "title": "Plop Templates",
+            "required": [
+                "plopTemplates.configFileName",
+                "plopTemplates.terminalName",
+                "plopTemplates.destinationPath",
+                "plopTemplates.plopCommand"
+            ],
+            "properties": {
+                "plopTemplates.configFileName": {
+                    "type": "string",
+                    "default": "plopfile.js",
+                    "description": "List of paths to plop file templates"
+                },
+                "plopTemplates.terminalName": {
+                    "type": "string",
+                    "default": "Generate ReactComponent TestCase",
+                    "description": "Name of the Terminal window created for plop"
+                },
+                "plopTemplates.destinationPath": {
+                    "type": "string",
+                    "default": "destinationpath",
+                    "description": "Name of the prompt the destination path will be passed in as"
+                },
+                "plopTemplates.plopCommand": {
+                    "type": "string",
+                    "default": "plop",
+                    "description": "By default this extension assumes plop is installed globally (npm install -g plop). If this is not the case, add a 'scripts' record in your package.json file -- example: 'scripts': { 'add-from-template': 'plop' } -- next update this setting with your command case, in this example 'add-from-template'"
                 }
             }
-        ]
+        }]
     },
     "scripts": {
         "vscode:prepublish": "webpack --mode production",
