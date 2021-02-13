@@ -2,6 +2,15 @@
 
 Install the extension on the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=TheRakeshPurohit.reacttestgen)
 
+## Requirements
+
+* node-plop =   ^0.26.2
+* plop      =   ^2.7.4
+* node      =   ^14.14.27
+* vscode    =   ^1.53.0
+
+## For Developement Environment Clone this Repo, npm i & F5
+
 ## Features
 
 * This extension adds single and multi-file templates to Visual Studio Code.
