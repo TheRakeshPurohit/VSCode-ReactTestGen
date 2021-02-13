@@ -24,7 +24,7 @@ To invoke template selection, simply right click on a folder or file in vscode f
 ## Extension Setup
 
 1) Install the [VSCode extension](https://marketplace.visualstudio.com/items?itemName=TheRakeshPurohit.reacttestgen)
-2) Install [plop.js](https://github.com/plopjs/plop) globally using `npm i -g plop`
+2) Install [plop.js](https://github.com/plopjs/plop) globally using `sudo npm i -g plop`
 
 ### ProTip: Add plop templates as a [recommended extension](https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions) to your `Workspace` or `Project` settings file and commit it. Then everyone on your team will see this extension
 
@@ -33,3 +33,4 @@ To invoke template selection, simply right click on a folder or file in vscode f
 ## 1.0.0
 
 * Initial release
+* Generates Basic Sanity Check Test Cases for React Component
